@@ -71,9 +71,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ mehdialaoui123456-boop/novel-bot.git
-git push -u origin main
+
