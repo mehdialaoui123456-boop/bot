@@ -3,7 +3,9 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 import os
 
 # === Replace with your token ===
-TOKEN = "8045556316:AAGYBBYFHU71Vsz56qdda8H0-RYPmRfanwE"
+import os
+TOKEN = os.environ.get("8045556316:AAGYBBYFHU71Vsz56qdda8H0-RYPmRfanwE")
+
 
 # Path to folder containing PDFs
 PDF_PATH = r"C:\Users\pc\Downloads\bot\pdfs"
@@ -71,4 +73,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
